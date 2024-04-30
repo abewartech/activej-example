@@ -1,0 +1,20 @@
+2024-04-30 11:05:05,163 [main] INFO  com.uet.example.AppLauncher                        - === INJECTING DEPENDENCIES
+2024-04-30 11:05:05,877 [main] INFO  o.h.e.j.c.i.ConnectionProviderInitiator            - HHH000130: Instantiating explicit connection provider: org.hibernate.hikaricp.internal.HikariCPConnectionProvider
+2024-04-30 11:05:06,325 [main] INFO  SQL dialect                                        - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-04-30 11:05:07,353 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-30 11:05:07,386 [main] INFO  com.uet.example.AppLauncher                        - === STARTING APPLICATION
+2024-04-30 11:05:07,394 [main] INFO  io.activej.service.ServiceGraph                    - Starting services
+2024-04-30 11:05:07,399 [main] INFO  io.activej.service.ServiceGraph                    - Started io.activej.eventloop.Eventloop in 2.560 ms
+2024-04-30 11:05:07,400 [main] INFO  io.activej.service.ServiceGraph                    - Started org.hibernate.SessionFactory
+2024-04-30 11:05:07,400 [main] INFO  io.activej.service.ServiceGraph                    - Started single java.util.concurrent.Executor
+2024-04-30 11:05:07,400 [main] INFO  io.activej.service.ServiceGraph                    - Started database java.util.concurrent.Executor
+2024-04-30 11:05:07,401 [eventloop: pool-3-thread-5] INFO  io.activej.service.ServiceGraph                    - Started io.activej.eventloop.Eventloop[4]
+2024-04-30 11:05:07,410 [eventloop: pool-3-thread-4] INFO  io.activej.service.ServiceGraph                    - Started io.activej.http.AsyncHttpServer[4] in 7.978 ms
+2024-04-30 11:05:07,411 [eventloop: pool-3-thread-1] INFO  io.activej.net.PrimaryServer                       - Listening on [/0.0.0.0:8080]: PrimaryServer{numOfWorkerServers=4, listenAddresses=[/0.0.0.0:8080], workerServers=[AsyncHttpServer{new:0 read/write:0 serving:0 keep-alive:0}, AsyncHttpServer{new:0 read/write:0 serving:0 keep-alive:0}, AsyncHttpServer{new:0 read/write:0 serving:0 keep-alive:0}, AsyncHttpServer{new:0 read/write:0 serving:0 keep-alive:0}]}
+2024-04-30 11:05:07,412 [eventloop: pool-3-thread-1] INFO  io.activej.service.ServiceGraph                    - Started io.activej.net.PrimaryServer in 1.899 ms
+2024-04-30 11:05:07,414 [main] INFO  com.uet.example.AppLauncher                        - Execute action before app started
+2024-04-30 11:05:07,415 [main] INFO  com.uet.example.config.DBMigration                 - Run liquibase migration....
+2024-04-30 11:05:08,334 [main] INFO  com.uet.example.config.DBMigration                 - Run liquibase successfully
+2024-04-30 11:05:08,335 [main] INFO  com.uet.example.AppLauncher                        - === RUNNING APPLICATION
+2024-04-30 11:05:08,337 [main] INFO  com.uet.example.AppLauncher                        - ===[ Use profile: Local ]===
+2024-04-30 11:05:08,339 [main] INFO  com.uet.example.AppLauncher                        - HTTP Server is listening on http://localhost:8080/
