@@ -115,10 +115,3 @@ If you don't login, you won't access this router
 ```
 
 If you don't login, you won't access this router
-
-
-
-## Support
-
-For support, contact email hungpt58.uet@gmail.com
-
